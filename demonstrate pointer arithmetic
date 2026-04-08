@@ -1,0 +1,13 @@
+#include <stdio.h>
+ 
+int main()
+{
+  	int arr[] = {10, 20, 30, 40, 50};
+  	int *ptr = arr;
+  	int i;
+  	printf("25331A05F0\n");
+  	printf("Pointer Arithmetic:\n");
+  	for (i = 0; i < 5; i++)
+        	printf("*(ptr+%d) = %d\n", i, *(ptr + i));
+  	return 0;
+}
